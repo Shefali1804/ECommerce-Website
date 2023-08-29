@@ -169,6 +169,7 @@ body{
 #hero button:hover{
     background-color: #088178;
     color: white;
+    cursor: pointer;
 }
 
 #feature{
