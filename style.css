@@ -198,7 +198,7 @@ body{
 }
 
 #feature .fe-box:hover{
-    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+    box-shadow: 10px 10px 54px rgba(227, 176, 46, 0.1);
     cursor: pointer;
 }
 
@@ -238,7 +238,7 @@ body{
 
 #product1{
     text-align: center;
-    background-color: #F0F0F0;
+    background-color: #fbe7e7;
 }
 
 #product1 .pro-container{
@@ -356,12 +356,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/banner/b17.jpg");
-    min-width: 580px;
+    background-image: url("img/banner/banner1.jpg");
+    /* min-width: 580px; */
     height: 50vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
+    width: 100%;
 }
 
 #sm-banner .banner-box2{
@@ -441,7 +442,7 @@ body{
     background-image: url("img/banner/b14.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
-    background-color: #041e42;
+    background-color: #829dc2;
 }
 
 #newsletter h4{
@@ -453,7 +454,7 @@ body{
 #newsletter p{
     font-size: 14px;
     font-weight: 600;
-    color: #818ea0
+    color: #fff
 }
 
 #newsletter p span{
@@ -478,11 +479,16 @@ body{
 }
 
 #newsletter button{
-    background-color: #088178;
+    background-color: #1a1a1a;
     color: #fff;
     white-space: nowrap;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+#newsletter button:hover{
+    background-color: #fbcaca;
+    color: #1a1a1a;
 }
 
 footer{
