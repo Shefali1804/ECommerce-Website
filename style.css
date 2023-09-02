@@ -349,6 +349,11 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-left: -10px; 
+    margin-right: -10px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    box-sizing: border-box;
 }
 
 #sm-banner .banner-box{
@@ -366,17 +371,18 @@ body{
 }
 
 #sm-banner .banner-box2{
-    background-image: url("img/banner/b10.jpg");
+    background-image: url("img/banner/banner2.jpg");
+    width: 100%;
 }
 
 #sm-banner h4{
-    color: #fff;
+    color: #222;
     font-size: 20px;
     font-weight: 300;
 }
 
 #sm-banner h2{
-    color: #fff;
+    color: #222;
     font-size: 28px;
     font-weight: 800;
 }
@@ -405,7 +411,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/banner/b7.jpg");
+    background-image: url("img/banner/SummerBanner.jpg");
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -415,11 +421,11 @@ body{
 }
 
 #banner3 .banner-box2{
-    background-image: url("img/banner/b4.jpg");
+    background-image: url("img/banner/WinterBanner.jpg");
 }
 
 #banner3 .banner-box3{
-    background-image: url("img/banner/b18.jpg");
+    background-image: url("img/banner/HolidayBanner.jpg");
 }
 
 #banner3 h2{
@@ -458,7 +464,7 @@ body{
 }
 
 #newsletter p span{
-    color: #ffbd27;
+    color: #702006;
 }
 
 #newsletter .form{
