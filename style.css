@@ -646,12 +646,10 @@ footer a:hover{
     }
     #banner3{
        flex-direction: column;
-       text-align: center;
     }
     #banner-3 .banner-box{
-        width: 80%;
+        width: 28%;
         margin-bottom: 20px;
-        max-width: 300px;
     }
 
     #newsletter .form{
