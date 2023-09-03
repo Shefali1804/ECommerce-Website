@@ -647,8 +647,13 @@ footer a:hover{
     #banner3{
         padding: 0 10px;
     }
-    #banner-3 .banner-box{
+    /* #banner-3 .banner-box{
         width: 28%;
+    } */
+    #banner-3 .banner-box{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     #newsletter .form{
         width: 70%;
@@ -706,7 +711,7 @@ footer a:hover{
     .copyright{
         padding: 3px 20px;
         margin: -40px 0 20px 0;
-        text-align: start;
+        text-align: center;
     }
 }
 
