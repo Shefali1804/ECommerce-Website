@@ -622,6 +622,9 @@ footer a:hover{
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
+    #hero button{
+        padding-top: 25px;
+    }
     #feature{
         justify-content: center;
     }
