@@ -701,13 +701,18 @@ footer a:hover{
         margin-top: 20px;
     }
     #banner3{
-        padding: 0 20px;
+        flex-direction: column;
+        padding: 0;
     }
     #banner3 .banner-box{
+        min-width: auto;
         width: 100%;
-        float: none;
-        margin-bottom: 20px;
-        padding: 10px;
+    }
+    #banner3 .banner-box2,
+    #banner3 .banner-box3 {
+        /* background-image: none; 
+        background-color: #333;  */
+        text-align: center; 
     }
     #newsletter{
         padding: 40px 20px;
