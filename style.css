@@ -714,7 +714,9 @@ footer a:hover{
       font-size: 18px;
       margin: 5px 0;
     }
-    
+    .banner-box:first-child {
+        width: 100%; 
+    }
     #newsletter{
         padding: 40px 20px;
     }
