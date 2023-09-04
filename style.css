@@ -705,15 +705,13 @@ footer a:hover{
         padding: 0;
     }
     #banner3 .banner-box{
-        min-width: auto;
-        width: 100%;
+       padding: 10px;
     }
-    #banner3 .banner-box2,
-    #banner3 .banner-box3 {
-        /* background-image: none; 
-        background-color: #333;  */
-        text-align: center; 
+    #banner3 .banner-box h2{
+      font-size: 18px;
+      margin: 5px 0;
     }
+    
     #newsletter{
         padding: 40px 20px;
     }
