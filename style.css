@@ -700,10 +700,10 @@ footer a:hover{
     #sm-banner .banner-box2{
         margin-top: 20px;
     }
-    /* #banner3{
+    #banner3{
         flex-direction: column;
         padding: 0;
-    } */
+    }
     #banner3 .banner-box{
        padding: 10px;
        width: 100%;
