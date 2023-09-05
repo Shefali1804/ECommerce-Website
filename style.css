@@ -704,18 +704,22 @@ footer a:hover{
         flex-direction: column;
         padding: 0;
     }
-    #banner3 .banner-box{
+    .banner-box{
        padding: 10px;
        width: 100%;
        box-sizing: border-box;
        background-repeat: no-repeat;
     }
-    #banner3 .banner-box h2{
+    .banner-box h2{
       font-size: 18px;
       margin: 5px 0;
     }
     .banner-box .banner-box1 {
         width: 100%; 
+    }
+    .banner-box .banner-box1 img{
+        width: 100%;
+        height: auto;
     }
     #newsletter{
         padding: 40px 20px;
